@@ -1,0 +1,9 @@
+8
+Levakov Matan 5 1 1
+Karpovich Proga 5 1 1
+Filiptsov GA 5 1 1
+Kazakov History 5 1 2
+Levakov Matan 5 2 1
+Pazura Proga 5 2 1
+Bazylev GA 5 2 1
+Gaydarova English 5 2 2

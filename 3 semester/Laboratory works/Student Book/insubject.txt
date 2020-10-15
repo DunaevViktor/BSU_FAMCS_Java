@@ -1,0 +1,9 @@
+8
+Matan 50 1 1
+Proga 50 1 1
+GA 40 1 1
+History 30 1 2
+Matan 50 2 1
+Proga 50 2 1
+GA 50 2 1
+English 40 2 2

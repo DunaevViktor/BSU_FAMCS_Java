@@ -1,0 +1,14 @@
+Belaja_Veja 5 Minsk
+Belarus 10 Minsk
+Hotel 3 Vileyka
+Prijut_dalnobojschika 1 Zabugorsk
+Epitsenter 1 Tula
+Polesse 6 Brest
+Renessans 10 Minsk
+Epitsenter 3 Moscow
+Belarus 4 Borisov
+Prijut_tractorista 1 Zabugorsk
+Belarus 2 Bobryjsk
+Prijut_fermera 1 Zabugorsk
+Hotel 2 Molodechno
+Polesse 3 Gomel

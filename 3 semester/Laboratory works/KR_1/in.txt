@@ -1,0 +1,5 @@
+4
+NetBens IDE and NetBeans Platform are based on softwareeee from netbeans.org,
+which has been dual licensed under the Common Development and Distribution License (CDDL)
+and the GNU General Public License version 2 with Classpath exception.
+For more information, please visit www.netbeans.org.

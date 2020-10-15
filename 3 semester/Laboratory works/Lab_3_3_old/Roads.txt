@@ -1,0 +1,37 @@
+public void searchMinimalPath(String str, String str2) {
+        int[] array = new int[citiesQuantity];
+        int[] p = new int[citiesQuantity];
+        boolean[] u = new boolean[citiesQuantity];
+        for (int i = 0; i < citiesQuantity; i++) {
+            array[i] = INF;
+        }
+        int s = citiesList.get(str);
+        array[s] = 0;
+        for (int i = 0; i < citiesQuantity; ++i) {
+            int v = -1;
+            for (int j = 0; j < citiesQuantity; ++j)
+                if (!u[j] && (v == -1 || array[j] < array[v]))
+                    v = j;
+            if (array[v] == INF)
+                break;
+            u[v] = true;
+            for (int j = 0; j < graph.get(v).size(); ++j) {
+                Connection temp = graph.get(v).get(j);
+                int len = temp.distance;
+                int to = temp.vertice;
+                if (array[v] + len < array[to]) {
+                    array[to] = array[v] + len;
+                    p[to] = v;
+                }
+            }
+        }
+        Vector<Integer> path = new Vector<Integer>();
+        for (int j = 0; j < array.length; j++) {
+            if (citiesListByCode.get(new Integer(j)).compareTo(str2) == 0) {
+                System.out.println("The shortest way from " + str + " to " + str2 + " is " + " - " + array[j]);
+                for (int v = j; v != s; v = p[v])
+                    path.add(v);
+                path.addElement(s);
+                Collections.reverse(path);
+            }
+        }
