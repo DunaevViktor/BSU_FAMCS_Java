@@ -1,0 +1,35 @@
+/*
+        Controller l = new Controller();
+        int sum_diag, max_sum_diag;
+        max_sum_diag=0;
+        int n;
+        String s1 = new String();
+        System.out.print("Input size of matrix ¹16: ");
+        n = l.FuncKC();
+
+        System.out.println("Input elements of matrix: ");
+        s1 = l.FuncK();
+        StringTokenizer st = new StringTokenizer(s1," \t\n\r");
+        int [][]M = new int [n][n];
+
+        for(int i1=0;i1<n;i1++)
+        {
+            for(int y =0;y<n;y++) {
+                if (st.hasMoreTokens()) {
+                    M[i1][y] = Integer.parseInt(st.nextToken());
+                } else {
+                    M[i1][y] = 0;
+                }
+            }
+        }
+
+        System.out.println("Matrix is: ");
+
+        for(int i2=0; i2<n;i2++)
+        {
+            for(int p=0;p<n;p++) {
+                System.out.print(M[i2][p] + " ");
+            }
+            System.out.println();
+        }
+*/
